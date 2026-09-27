@@ -70,8 +70,8 @@ ul { margin: 0; padding: 0; list-style: none; }
   display: flex; align-items: center; gap: 2rem;
 }
 .brand { display: flex; align-items: center; color: var(--ink-0); }
-.brand-logo { height: 42px; width: auto; border-radius: 6px; }
-.footer-logo { height: 34px; }
+.brand-logo { height: 48px; width: auto; }
+.footer-logo { height: 40px; }
 .nav-links { display: flex; gap: 1.8rem; margin-left: auto; }
 .nav-links a { color: var(--ink-2); font-weight: 600; font-size: .92rem; }
 .nav-links a:hover { color: var(--ink-0); }
