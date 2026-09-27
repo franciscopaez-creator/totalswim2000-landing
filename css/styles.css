@@ -76,6 +76,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .nav-links a { color: var(--ink-2); font-weight: 600; font-size: .92rem; }
 .nav-links a:hover { color: var(--ink-0); }
 .nav-cta { margin-left: .5rem; }
+.lang-switch { padding: .5rem .9rem; font-size: .82rem; margin-left: 1.2rem; }
 .hamburger {
   display: none; flex-direction: column; justify-content: center; gap: 5px;
   width: 40px; height: 40px; border-radius: 10px; border: 1px solid var(--border);
@@ -87,7 +88,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .nav-mobile .btn { width: fit-content; margin-top: .4rem; }
 
 @media (max-width: 860px) {
-  .nav-links, .nav-cta { display: none; }
+  .nav-links, .nav-cta, .lang-switch { display: none; }
   .hamburger { display: flex; }
   .nav-mobile.open { display: flex; }
 }
