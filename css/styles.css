@@ -153,6 +153,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .app-features li { display: flex; gap: 1rem; align-items: flex-start; }
 .app-features strong { display: block; color: var(--ink-0); font-size: 1.02rem; margin-bottom: .25rem; }
 .app-features span { color: var(--ink-2); font-size: .92rem; }
+.app-promo-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
 
 /* Method */
 .method { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; align-items: center; }
