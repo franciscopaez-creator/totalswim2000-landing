@@ -69,10 +69,9 @@ ul { margin: 0; padding: 0; list-style: none; }
   max-width: 1180px; margin: 0 auto; padding: .9rem 1.5rem;
   display: flex; align-items: center; gap: 2rem;
 }
-.brand { display: flex; align-items: center; gap: .6rem; color: var(--ink-0); }
-.brand-mark { color: var(--accent); display: flex; }
-.brand-text { font-family: var(--font-display); font-weight: 700; letter-spacing: .04em; font-size: 1.05rem; color: var(--ink-0); }
-.brand-text b { color: var(--accent); font-weight: 800; }
+.brand { display: flex; align-items: center; color: var(--ink-0); }
+.brand-logo { height: 42px; width: auto; border-radius: 6px; }
+.footer-logo { height: 34px; }
 .nav-links { display: flex; gap: 1.8rem; margin-left: auto; }
 .nav-links a { color: var(--ink-2); font-weight: 600; font-size: .92rem; }
 .nav-links a:hover { color: var(--ink-0); }
