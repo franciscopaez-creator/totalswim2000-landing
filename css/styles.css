@@ -223,3 +223,22 @@ ul { margin: 0; padding: 0; list-style: none; }
   .hero-stats { gap: 1.6rem; }
   .section { padding: 3.5rem 1.25rem; }
 }
+
+/* Página de contenido tipo artículo (Cómo funciona) */
+.article-header { max-width: 780px; margin: 0 auto; padding: 3.5rem 1.5rem 1rem; }
+.article-header .eyebrow { margin-bottom: .8rem; }
+.article-header h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); }
+.article-header p { color: var(--ink-2); margin-top: 1rem; font-size: 1.05rem; }
+.prose { max-width: 780px; margin: 0 auto; padding: 1rem 1.5rem 4rem; }
+.prose h2 { font-size: 1.4rem; margin: 2.4rem 0 1rem; padding-top: 1.2rem; border-top: 1px solid var(--border); }
+.prose h2:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+.prose p { color: var(--ink-1); line-height: 1.7; margin: 0 0 1rem; }
+.prose strong { color: var(--ink-0); }
+.prose ul, .prose ol { margin: 0 0 1.2rem; padding-left: 1.3rem; color: var(--ink-1); line-height: 1.7; }
+.prose li { margin-bottom: .5rem; }
+.prose table { width: 100%; border-collapse: collapse; margin: 0 0 1.2rem; font-size: .92rem; }
+.prose th, .prose td { text-align: left; padding: .7rem .8rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+.prose th { color: var(--accent); font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; }
+.prose td:first-child { color: var(--ink-0); font-weight: 600; white-space: nowrap; }
+.prose .faq-q { color: var(--ink-0); font-weight: 700; margin-bottom: .3rem; }
+.prose .cta-inline { text-align: center; padding: 2.5rem 0 0; }
