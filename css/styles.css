@@ -173,9 +173,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .plan-features li { color: var(--ink-2); font-size: .92rem; padding-left: 1.3rem; position: relative; }
 .plan-features li::before { content: '✓'; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
 .plan-card .btn, .plan-card .app-promo-actions { margin-top: auto; }
-.plans-footnote { text-align: center; margin-top: 2rem; }
-.plans-footnote a { color: var(--ink-2); font-weight: 600; font-size: .92rem; }
-.plans-footnote a:hover { color: var(--accent); }
+.plan-howto { display: block; text-align: center; margin-top: 1rem; color: var(--ink-2); font-weight: 600; font-size: .88rem; }
+.plan-howto:hover { color: var(--accent); }
 
 /* Method */
 .method { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; align-items: center; }
