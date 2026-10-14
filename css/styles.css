@@ -272,3 +272,6 @@ ul { margin: 0; padding: 0; list-style: none; }
 .prose td:first-child { color: var(--ink-0); font-weight: 600; white-space: nowrap; }
 .prose .faq-q { color: var(--ink-0); font-weight: 700; margin-bottom: .3rem; }
 .prose .cta-inline { text-align: center; padding: 2.5rem 0 0; }
+.prose .callout { background: rgba(34,211,197,.08); border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; padding: 1.1rem 1.3rem; margin: 0 0 1.2rem; }
+.prose .callout p:last-child { margin-bottom: 0; }
+.prose .callout h3 { color: var(--ink-0); font-size: 1.02rem; margin: 0 0 .6rem; }
